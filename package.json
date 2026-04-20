@@ -1,0 +1,34 @@
+{
+  "name": "cypress-ai-getting-started",
+  "description": "A getting started repository for Cypress AI test automation course",
+  "scripts": {
+    "install:npm": "npm install",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run --browser chrome",
+    "cy:run:record": "dotenv -e .env -- cypress run --browser chrome --record"
+  },
+  "keywords": [
+    "cypress",
+    "cypress-ai",
+    "testing",
+    "automation",
+    "e2e"
+  ],
+  "author": "nilshoyer",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^15.14.0",
+    "dotenv-cli": "^11.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nils-hoyer/cypress-ai-getting-started.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nils-hoyer/cypress-ai-getting-started/issues"
+  },
+  "homepage": "https://github.com/nils-hoyer/cypress-ai-getting-started#readme"
+}
