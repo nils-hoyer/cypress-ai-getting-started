@@ -5,5 +5,4 @@ export default defineConfig({
     projectId: 'tjnqsr',
     baseUrl: 'https://test-boutique.vercel.app',
   },
-  defaultCommandTimeout: 5000,
 })
