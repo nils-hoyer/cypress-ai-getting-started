@@ -8,6 +8,10 @@ Folge dieser Anleitung, um deine Cypress AI Testumgebung einzurichten:
 1. **Visual Studio Code installieren**
    - Lade Visual Studio Code [hier herunter](https://code.visualstudio.com/download) und installiere es auf deinem System
 
+2. **Google Chrome installieren**
+   - Benötigt: aktuelle Version von Google Chrome
+   - Lade Chrome [hier herunter](https://www.google.com/chrome/)
+
 3. **Node.js installieren**
    - Benötigt: Node.js Version 22 oder neuer
    - Lade Node.js [hier herunter](https://nodejs.org/en/download) oder nutze NVM: `nvm install 22`
