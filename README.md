@@ -53,6 +53,6 @@ Die Ausgaben der folgenden Befehle erscheinen im Terminal-Tab im unteren Bereich
 
    ![Cypress Open](docs/cypress-open.png)
 
-Wenn beides erfolgreich funktioniert, bist du bereit für das Seminar!
+Wenn beides erfolgreich funktioniert, bist du startklar für die Schulung!
 
 Happy Testing! 🚀🤖
