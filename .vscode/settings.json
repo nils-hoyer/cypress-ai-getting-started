@@ -1,3 +1,5 @@
 {
-  "npm.enableScriptExplorer": true
+    "npm.enableScriptExplorer": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000
 }
