@@ -29,6 +29,7 @@ Folge dieser Anleitung, um deine Cypress AI Testumgebung einzurichten:
 
 Die folgenden Befehle findest du links im Explorer unter "NPM SKRIPTS". Von dort kannst du sie per Klick ausführen.
 Die Ausgaben der folgenden Befehle erscheinen im Terminal-Tab im unteren Bereich von Visual Studio Code.
+
 ![NPM Scripts](docs/npm-scripts.png)
 
 6. **Pakete installieren**
