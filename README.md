@@ -17,15 +17,15 @@ Folge dieser Anleitung, um deine Cypress AI Testumgebung einzurichten:
 4. **Dateien herunterladen**
    - Lade das Projekt [hier herunter](https://github.com/nils-hoyer/cypress-ai-getting-started/archive/refs/heads/main.zip) oder nutze Git: `git clone https://github.com/nils-hoyer/cypress-ai-getting-started.git`
 
-5. **Projekt in VS Code öffnen**
-   - Öffne VS Code
+5. **Projekt in Visual Studio Code öffnen**
+   - Öffne Visual Studio Code
    - Datei > Ordner öffnen... und wähle den heruntergeladenen Ordner
 
 ### Cypress einrichten
 
-**Wichtig**: Die Ausgaben der folgenden Befehle siehst du im Terminal-Tab im unteren Bereich von VS Code.
+**Wichtig**: Die Ausgaben der folgenden Befehle siehst du im Terminal-Tab im unteren Bereich von Visual Studio Code.
 
-**Tipp**: Die folgenden Befehle findest du auch links im Explorer unter "NPM SCRIPTS" - dann kannst du sie per Klick ausführen.
+**Tipp**: Die folgenden Befehle findest du auch links im Explorer unter "NPM SKRIPTS", dann kannst du sie per Klick ausführen.
 
 ![NPM Scripts](docs/npm-scripts.png)
 
