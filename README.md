@@ -27,10 +27,8 @@ Folge dieser Anleitung, um deine Cypress AI Testumgebung einzurichten:
 
 ### Cypress einrichten
 
-**Wichtig**: Die Ausgaben der folgenden Befehle siehst du im Terminal-Tab im unteren Bereich von Visual Studio Code.
-
-**Tipp**: Die folgenden Befehle findest du auch links im Explorer unter "NPM SKRIPTS", dann kannst du sie per Klick ausführen.
-
+Die folgenden Befehle findest du links im Explorer unter "NPM SKRIPTS". Von dort kannst du sie per Klick ausführen.
+Die Ausgaben der folgenden Befehle erscheinen im Terminal-Tab im unteren Bereich von Visual Studio Code.
 ![NPM Scripts](docs/npm-scripts.png)
 
 6. **Pakete installieren**
@@ -38,11 +36,22 @@ Folge dieser Anleitung, um deine Cypress AI Testumgebung einzurichten:
    - Oder nutze Bash: `npm install`
    - Installiert Cypress und alle benötigten Pakete
 
-7. **Setup testen**
+7. **Setup überprüfen**
+
+   a. Teste Cypress Testausführung im Terminal:
    - Starte Skript "cy:run"
    - Oder nutze Bash: `npm run cy:run`
    - Führt alle Tests im Terminal aus
 
-Wenn die Tests erfolgreich durchgelaufen sind, bist du bereit für das Seminar!
+   ![Cypress Run](docs/cypress-run.png)
+
+   b. Teste den Cypress UI-Modus:
+   - Starte Skript "cy:open"
+   - Oder nutze Bash: `npm run cy:open`
+   - Öffnet das Cypress App-Fenster. Stelle sicher, dass es sich öffnet
+
+   ![Cypress Open](docs/cypress-open.png)
+
+Wenn beides erfolgreich funktioniert, bist du bereit für das Seminar!
 
 Happy Testing! 🚀🤖
