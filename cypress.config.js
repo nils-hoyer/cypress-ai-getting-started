@@ -5,4 +5,5 @@ export default defineConfig({
     projectId: 'tjnqsr',
     baseUrl: 'https://test-boutique.vercel.app',
   },
+  allowCypressEnv: false,
 })
