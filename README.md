@@ -1,58 +1,58 @@
 # Cypress AI - Getting Started
 
-Dieses Repository ist die Basis für die Kurse auf https://www.codesurfer.io/schulungen.
-Folge dieser Anleitung, um deine Cypress AI Testumgebung einzurichten:
+This repository is the foundation for the courses at https://www.codesurfer.io/schulungen.
+Follow this guide to set up your Cypress AI test environment:
 
-### Voraussetzungen
+### Prerequisites
 
-1. **Visual Studio Code installieren**
-   - Lade Visual Studio Code [hier herunter](https://code.visualstudio.com/download) und installiere es auf deinem System
+1. **Install Visual Studio Code**
+   - Download Visual Studio Code [here](https://code.visualstudio.com/download) and install it on your system
 
-2. **Google Chrome installieren**
-   - Benötigt: aktuelle Version von Google Chrome
-   - Lade Chrome [hier herunter](https://www.google.com/chrome/)
+2. **Install Google Chrome**
+   - Required: current version of Google Chrome
+   - Download Chrome [here](https://www.google.com/chrome/)
 
-3. **Node.js installieren**
-   - Benötigt: Node.js Version 22 oder neuer
-   - Lade Node.js [hier herunter](https://nodejs.org/en/download) oder nutze NVM: `nvm install 22`
+3. **Install Node.js**
+   - Required: Node.js version 22 or newer
+   - Download Node.js [here](https://nodejs.org/en/download) or use NVM: `nvm install 22`
 
-### Projekt Setup
+### Project Setup
 
-4. **Dateien herunterladen**
-   - Lade das Projekt [hier herunter](https://github.com/nils-hoyer/cypress-ai-getting-started/archive/refs/heads/main.zip) oder nutze Git: `git clone https://github.com/nils-hoyer/cypress-ai-getting-started.git`
+4. **Download the files**
+   - Download the project [here](https://github.com/nils-hoyer/cypress-ai-getting-started/archive/refs/heads/main.zip) or use Git: `git clone https://github.com/nils-hoyer/cypress-ai-getting-started.git`
 
-5. **Projekt in Visual Studio Code öffnen**
-   - Öffne Visual Studio Code
-   - Datei > Ordner öffnen... und wähle den heruntergeladenen Ordner
+5. **Open the project in Visual Studio Code**
+   - Open Visual Studio Code
+   - File > Open Folder... and select the downloaded folder
 
-### Cypress einrichten
+### Set Up Cypress
 
-Die folgenden Befehle findest du links im Explorer unter **NPM SKRIPTS**. Von dort kannst du sie per Klick ausführen.
-Die Ausgaben der folgenden Befehle erscheinen im Terminal-Tab im unteren Bereich von Visual Studio Code.
+The following commands can be found in the left Explorer panel under **NPM SCRIPTS**. You can run them with a single click.
+The output of the following commands will appear in the Terminal tab at the bottom of Visual Studio Code.
 
 ![NPM Scripts](docs/npm-scripts.png)
 
-6. **Pakete installieren**
-   - Starte Skript **install:npm**
-   - Oder nutze Bash: `npm install`
-   - Installiert Cypress und alle benötigten Pakete
+6. **Install packages**
+   - Run script **install:npm**
+   - Or use Bash: `npm install`
+   - Installs Cypress and all required packages
 
-7. **Setup überprüfen**
+7. **Verify the setup**
 
-   a. Teste Cypress Testausführung im Terminal:
-   - Starte Skript **cy:run**
-   - Oder nutze Bash: `npm run cy:run`
-   - Führt alle Tests im Terminal aus
+   a. Test Cypress test execution in the terminal:
+   - Run script **cy:run**
+   - Or use Bash: `npm run cy:run`
+   - Runs all tests in the terminal
 
    ![Cypress Run](docs/cypress-run.png)
 
-   b. Teste den Cypress UI-Modus:
-   - Starte Skript **cy:open**
-   - Oder nutze Bash: `npm run cy:open`
-   - Öffnet das Cypress App-Fenster. Stelle sicher, dass es sich öffnet
+   b. Test the Cypress UI mode:
+   - Run script **cy:open**
+   - Or use Bash: `npm run cy:open`
+   - Opens the Cypress app window. Make sure it opens successfully
 
    ![Cypress Open](docs/cypress-open.png)
 
-Wenn beides erfolgreich funktioniert, bist du startklar für die Schulung!
+If both work successfully, you are ready to go for the training!
 
 Happy Testing! 🚀🤖
