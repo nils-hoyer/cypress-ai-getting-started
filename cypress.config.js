@@ -6,4 +6,5 @@ export default defineConfig({
     baseUrl: 'https://test-boutique.vercel.app',
   },
   allowCypressEnv: false,
+  watchForFileChanges: false,
 })

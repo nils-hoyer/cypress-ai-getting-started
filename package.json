@@ -17,7 +17,7 @@
   "author": "nilshoyer",
   "license": "MIT",
   "devDependencies": {
-    "cypress": "^15.14.0",
+    "cypress": "^15.14.1",
     "dotenv-cli": "^11.0.0"
   },
   "engines": {
