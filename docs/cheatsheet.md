@@ -22,6 +22,7 @@ Der generierte Code kann so aussehen:
 ```javascript
 describe('Test-Suite', () => {
   it('Test-Beschreibung', () => {
+    // open test-boutique website 
     cy.visit('https://test-boutique.vercel.app')
     // click on product 1
     cy.get('[data-testid="product-1"]').click()
@@ -39,6 +40,14 @@ it.skip('defekter Test', () => {
 })
 ```
 
+#### Test fokusieren
+```javascript
+// Test überspringen
+it.only('ausschließlich der markierten Test ausführen', () => {
+  // ...
+})
+```
+
 ## Locators
 
 #### Grundlegende Locators
@@ -50,7 +59,9 @@ cy.get('[data-testid="login-form"]')
 
 // Nach Text
 cy.contains('Willkommen')
-cy.contains(/willkommen/i) // Groß-/Kleinschreibung ignorieren
+
+// Kombination
+cy.get('.tab').contains('Edit Details')
 ```
 
 #### CSS Locators
@@ -58,9 +69,9 @@ Falls notwendig könnt ihr auf CSS Selektoren zurückgreifen.
 
 ```javascript
 // CSS-Selektoren
-cy.get('.class-name')
 cy.get('#id-name')
-cy.get('input[type="email"]')
+cy.get('input[name="email"]')
+cy.get('.class-name')
 
 // Locators kombinieren (scope)
 cy.get('#container').find('.item')
@@ -100,9 +111,6 @@ cy.get('button').dblclick() // Doppelklick
 
 // Hover
 cy.get('.menu').trigger('mouseover')
-
-// Drag & Drop
-cy.get('#source').drag('#target')
 ```
 
 #### Formular-Interaktionen
@@ -123,7 +131,7 @@ cy.get('input[type="checkbox"]').check()
 cy.get('input[type="checkbox"]').uncheck()
 
 // Datei hochladen
-cy.get('input[type="file"]').selectFile('path/to/file.txt')
+cy.get('input[type="file"]').selectFile('file.txt')
 ```
 
 #### Tastatur und Maus
