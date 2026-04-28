@@ -32,6 +32,8 @@ describe('Test-Suite', () => {
 })
 ```
 
+Weitere Informationen zu cy.prompt(): [Cypress Prompt Commands](https://docs.cypress.io/api/commands/prompt#What-you-can-do)
+
 #### Test deaktivieren
 ```javascript
 // Test überspringen
