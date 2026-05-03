@@ -162,7 +162,6 @@ cy.title().should('include', 'teil')
 ```javascript
 // Sichtbarkeit
 cy.get(locator).should('be.visible')
-cy.get(locator).should('not.be.visible')
 
 // Textinhalt
 cy.get(locator).should('have.text', 'exakter text')
@@ -179,11 +178,9 @@ cy.get(locator).should('have.value', 'input-value')
 
 // Anzahl
 cy.get(locator).should('have.length', 5)
-```
 
-#### Negationen
-```javascript
 // .not für negative Überprüfungen verwenden
+cy.get(locator).should('not.be.visible')
 cy.get(locator).should('not.be.empty')
 cy.get(locator).should('not.contain.text', 'unerwünschter text')
 ```
