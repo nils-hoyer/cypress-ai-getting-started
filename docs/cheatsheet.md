@@ -190,6 +190,24 @@ cy.get(locator).should('not.contain.text', 'unerwünschter text')
 
 Weitere Informationen zu Assertions: [Cypress Assertions Dokumentation](https://docs.cypress.io/app/references/assertions)
 
+#### Werte aus der Cypress Kontext auslesen und reinbringen
+
+**Auslesen:** Mit `.then()` einen Wert z.B. aus einem Element lesen und als JavaScript-Variable speichern.
+
+```javascript
+cy.get('[data-testid="username"]').then(($el) => {
+  const userName = $el.text()
+})
+```
+
+**Reinbringen:** Mit `cy.wrap()` eine JavaScript-Variable zurück in den Cypress Kontext bringen und damit eine Assertion ausführen.
+
+```javascript
+cy.wrap(emailBefore).should('have.text', emailAfter)
+```
+
+
+
 #### CLI-Befehle
 
 ```bash
